@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "This is pipeline build trigger"
                 set PATH='C:\\Python27\\Scripts'
-                python --version
+                python '--version'
             }
         }
     }
