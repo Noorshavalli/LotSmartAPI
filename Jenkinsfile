@@ -8,7 +8,7 @@ pipeline {
                 python '--version'
             }
         } 
-        stege('deploy'){
+        stage('deploy'){
             steps { 
                 echo "This is pipeline consist of stage trigger"
             }
