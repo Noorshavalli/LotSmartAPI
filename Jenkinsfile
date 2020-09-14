@@ -7,6 +7,11 @@ pipeline {
                 set PATH='C:\\Python27\\Scripts'
                 python '--version'
             }
+        } 
+        stege('deploy'){
+            steps { 
+                echo "This is pipeline consist of stage trigger"
+            }
         }
     }
 }
