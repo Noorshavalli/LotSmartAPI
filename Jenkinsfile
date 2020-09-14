@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "This is pipeline build trigger"
-                'python --version'
+                python --version
             }
         }
     }
