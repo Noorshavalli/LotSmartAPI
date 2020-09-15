@@ -4,8 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 echo "This is pipeline build trigger"
+                cd "C:\\Python27\\"
                 set PATH='C:\\Python27\\Scripts'
                 python '--version'
+                python -m 'hello.py'
             }
         } 
         stage('deploy'){
