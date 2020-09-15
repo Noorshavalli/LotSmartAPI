@@ -7,7 +7,7 @@ pipeline {
                 cd "C:\\Python27\\"
                 set PATH='C:\\Python27\\Scripts'
                 python '--version'
-                python -m 'hello.py'
+                python '-m hello.py'
             }
         } 
         stage('deploy'){
