@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "This is pipeline build trigger"
+                echo "This is pipeline to build trigger"
                 cd "C:\\Python27\\"
                 set PATH='C:\\Python27\\Scripts'
                 python '--version'
