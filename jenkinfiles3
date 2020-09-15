@@ -34,7 +34,7 @@ pipeline {
 			              logFileName         : '**/log.html',
 			              disableArchiveOutput: false,
 			              passThreshold       : 50,
-			              unstableThreshold   : 50,
+			              unstableThreshold   : 40,
 			              otherFiles          : "**/*.png,**/*.jpg",
 			            ]
 		          	)
